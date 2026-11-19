@@ -1,0 +1,341 @@
+{
+ "Version": 3,
+ "FileReferences": {
+  "Moc": "真教主.moc3",
+  "Textures": [
+   "真教主_0_texture_00.png"
+  ],
+  "Motions": {
+   "Motion": [
+    {
+     "File": "motions/一般.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/哀.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/哭.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/哭理教.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/喜.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/嚴肅.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/失落.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/崩壞.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/微怒.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/思考.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/恐懼.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/恐懼loop.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/慌張.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/慌張loop.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/斗篷一般.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/斗篷喜.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/斗篷祈禱.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/斗篷遮臉.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/斗篷遮臉祈禱.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/極怒.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/狂喜.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/狡辯.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/狡辯loop.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/眼無光.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/祈禱.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/質疑.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/驚訝.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    }
+   ],
+   "Tap": [
+    {
+     "File": "motions/一般.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/哀.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/哭.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/哭理教.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/喜.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/嚴肅.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/失落.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/崩壞.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/微怒.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/思考.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/恐懼.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/恐懼loop.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/慌張.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/慌張loop.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/斗篷一般.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/斗篷喜.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/斗篷祈禱.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/斗篷遮臉.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/斗篷遮臉祈禱.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/極怒.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/狂喜.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/狡辯.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/狡辯loop.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/眼無光.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/祈禱.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/質疑.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/驚訝.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    }
+   ]
+  },
+  "Physics": "真教主.physics3.json"
+ },
+ "Groups": [],
+ "HitAreas": [],
+ "Controllers": {
+  "FaceTracking": {
+   "Enabled": true,
+   "AngleX": [
+    {
+     "Id": "ParamAngleX",
+     "Input": 0
+    }
+   ],
+   "AngleY": [
+    {
+     "Id": "ParamAngleY",
+     "Input": 0
+    }
+   ],
+   "AngleZ": [
+    {
+     "Id": "ParamAngleZ",
+     "Input": 0
+    }
+   ],
+   "EyeLOpen": [
+    {
+     "Id": "ParamEyeLOpen",
+     "Input": 0
+    }
+   ],
+   "EyeROpen": [
+    {
+     "Id": "ParamEyeROpen",
+     "Input": 0
+    }
+   ],
+   "MouthOpenY": [
+    {
+     "Id": "ParamMouthOpenY",
+     "Input": 0
+    }
+   ],
+   "EyeballX": [
+    {
+     "Id": "ParamEyeBallX",
+     "Input": 0
+    }
+   ],
+   "EyeballY": [
+    {
+     "Id": "ParamEyeBallY",
+     "Input": 0
+    }
+   ]
+  }
+ }
+}

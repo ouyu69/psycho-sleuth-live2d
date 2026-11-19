@@ -1,0 +1,175 @@
+{
+ "Version": 3,
+ "FileReferences": {
+  "Moc": "教主_260202.moc3",
+  "Textures": [
+   "教主_260202_0_texture_00.png"
+  ],
+  "Physics": "教主_260202.physics3.json",
+  "Motions": {
+   "Motion": [
+    {
+     "File": "motions/一般.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/哀.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/喜.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/嫌棄.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/得意.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/微怒.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/思考.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/極怒.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/無言.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/閉眼.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/驚訝.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    }
+   ],
+   "Tap": [
+    {
+     "File": "motions/一般.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/哀.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/喜.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/嫌棄.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/得意.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/微怒.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/思考.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/極怒.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/無言.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/閉眼.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/驚訝.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    }
+   ]
+  }
+ },
+ "Groups": [],
+ "HitAreas": [],
+ "Controllers": {
+  "FaceTracking": {
+   "Enabled": true,
+   "AngleX": [
+    {
+     "Id": "ParamAngleX",
+     "Input": 0
+    }
+   ],
+   "AngleY": [
+    {
+     "Id": "ParamAngleY",
+     "Input": 0
+    }
+   ],
+   "AngleZ": [
+    {
+     "Id": "ParamAngleZ",
+     "Input": 0
+    }
+   ],
+   "EyeLOpen": [
+    {
+     "Id": "ParamEyeLOpen",
+     "Input": 0
+    }
+   ],
+   "EyeROpen": [
+    {
+     "Id": "ParamEyeROpen",
+     "Input": 0
+    }
+   ],
+   "EyeballX": [
+    {
+     "Id": "ParamEyeBallX",
+     "Input": 0
+    }
+   ],
+   "EyeballY": [
+    {
+     "Id": "ParamEyeBallY",
+     "Input": 0
+    }
+   ]
+  }
+ }
+}

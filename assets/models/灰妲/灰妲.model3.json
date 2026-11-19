@@ -1,0 +1,295 @@
+{
+ "Version": 3,
+ "FileReferences": {
+  "Moc": "灰妲.moc3",
+  "Textures": [
+   "灰妲_0_texture_00.png"
+  ],
+  "Motions": {
+   "Motion": [
+    {
+     "File": "motions/一般.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/哀_狼模式.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/哭.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/喜.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/喜_狼模式.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/嗜血_狼模式.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/嫌棄.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/得意.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/微怒.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/微怒_閉眼.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/怒_狼模式.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/怒_狼模式_閉眼.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/思考.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/思考loop.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/揮動翅膀.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/極怒.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/極怒_閉眼.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/興奮_狼模式.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/質疑.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/質疑loop.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/質疑狼.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/質疑狼loop.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/驚訝.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    }
+   ],
+   "Tap": [
+    {
+     "File": "motions/一般.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/哀_狼模式.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/哭.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/喜.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/喜_狼模式.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/嗜血_狼模式.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/嫌棄.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/得意.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/微怒.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/微怒_閉眼.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/怒_狼模式.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/怒_狼模式_閉眼.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/思考.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/思考loop.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/揮動翅膀.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/極怒.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/極怒_閉眼.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/興奮_狼模式.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/質疑.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/質疑loop.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/質疑狼.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/質疑狼loop.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/驚訝.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    }
+   ]
+  },
+  "Physics": "灰妲.physics3.json"
+ },
+ "Groups": [],
+ "HitAreas": [],
+ "Controllers": {
+  "FaceTracking": {
+   "Enabled": true,
+   "AngleX": [
+    {
+     "Id": "ParamAngleX",
+     "Input": 0
+    }
+   ],
+   "AngleY": [
+    {
+     "Id": "ParamAngleY",
+     "Input": 0
+    }
+   ],
+   "AngleZ": [
+    {
+     "Id": "ParamAngleZ",
+     "Input": 0
+    }
+   ],
+   "EyeLOpen": [
+    {
+     "Id": "ParamEyeLOpen",
+     "Input": 0
+    }
+   ],
+   "EyeROpen": [
+    {
+     "Id": "ParamEyeROpen",
+     "Input": 0
+    }
+   ],
+   "EyeballX": [
+    {
+     "Id": "ParamEyeBallX",
+     "Input": 0
+    }
+   ],
+   "EyeballY": [
+    {
+     "Id": "ParamEyeBallY",
+     "Input": 0
+    }
+   ]
+  }
+ }
+}

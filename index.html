@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171820">
+  <meta name="description" content="异病侦探 Live2D 异病档案：浏览角色模型、立绘差分与原始动作。">
+  <title>异病档案 · 异病侦探 Live2D</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="./src/archive-theme.css">
+  <script defer src="./vendor/pixi-6.5.10.min.js"></script>
+  <script defer src="./vendor/live2dcubismcore.min.js"></script>
+  <script defer src="./vendor/cubism4-0.4.0.js"></script>
+  <script type="module" src="./src/app.mjs"></script>
+</head>
+<body>
+  <div class="workspace">
+    <aside class="library">
+      <header class="brand"><span class="brand-mark" aria-hidden="true"></span><div><h1>异病档案</h1><span class="eyebrow">PSYCHO-SLEUTH / LIVE2D</span></div></header>
+      <div class="library-intro"><span>异病侦探</span></div>
+      <label class="search"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="model-search" type="search" placeholder="寻找角色或差分" aria-label="搜索角色或差分"></label>
+      <div class="section-label"><span>全部档案</span><span id="model-count">24 个模型</span></div>
+      <nav id="model-list" aria-label="角色与模型"><p class="empty">正在读取角色档案…</p></nav>
+      <footer class="library-footer"><span class="archive-icon">◇</span><div><span>24 模型 · 333 动作</span></div><button id="about-button" class="icon-button" aria-label="关于本站">?</button></footer>
+    </aside>
+
+    <main class="main">
+      <header class="stage-header"><div><h2 id="character-name">正在打开档案<span class="name-dot">.</span></h2><p id="variant-name">选择一个角色查看模型</p></div><div class="header-actions"><button id="share" class="icon-button" aria-label="复制当前角色与动作链接" title="复制分享链接"><svg viewBox="0 0 24 24"><path d="m9 15 6-6M8 17l-1 1a4 4 0 0 1-6-6l4-4a4 4 0 0 1 6 0m2-1 1-1a4 4 0 0 1 6 6l-4 4a4 4 0 0 1-6 0" transform="translate(1 0)"/></svg></button><button id="screenshot" class="icon-button" aria-label="保存透明背景截图" title="保存透明 PNG"><svg viewBox="0 0 24 24"><path d="M4 6h4l2-3h4l2 3h4v14H4Z"/><circle cx="12" cy="12" r="4"/></svg></button><button id="fullscreen" class="icon-button" aria-label="切换舞台全屏" title="全屏"><svg viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg></button></div></header>
+
+      <div class="stage-layout">
+        <section class="stage-column" aria-label="Live2D 舞台">
+          <div id="stage" class="stage" data-background="paper">
+            <div class="stage-watermark" aria-hidden="true">PSYCHO<br>SLEUTH<span>THE CHARACTER COLLECTION</span></div>
+            <canvas id="live2d" aria-label="可拖动、缩放的 Live2D 角色展示"></canvas>
+            <div class="stage-corner top-left" aria-hidden="true"></div><div class="stage-corner bottom-right" aria-hidden="true"></div>
+            <div class="stage-topline"><span id="stage-badge">LIVE2D / ARCHIVE</span><span id="fps">— FPS</span></div>
+            <div id="loading" class="loading" role="status" aria-live="polite"><span class="spinner"></span><strong id="loading-title">正在打开档案</strong><span id="loading-detail">首次载入需要一点时间</span><button id="retry" hidden>重新加载</button></div>
+            <div class="stage-bottomline"><span>拖动移动 · 滚轮缩放 · 双击复位</span><div class="zoom-controls"><button id="zoom-out" aria-label="缩小">−</button><button id="zoom-reset" title="复位视图">100%</button><button id="zoom-in" aria-label="放大">+</button></div></div>
+          </div>
+          <div class="playback"><button id="restart" class="icon-button" aria-label="从头播放" title="从头播放"><svg viewBox="0 0 24 24"><path d="M5 5v14m14-14L8 12l11 7Z"/></svg></button><button id="play" class="play-button" aria-label="暂停" disabled><span id="play-symbol">Ⅱ</span></button><div class="timeline"><div class="time-label"><strong id="current-time">0.00</strong><span>/ <span id="duration">0.00</span> s</span><span id="motion-caption">等待模型载入</span></div><progress id="progress" max="1" value="0" aria-label="动作播放进度"></progress></div><label class="speed-control"><span class="sr-only">播放速度</span><select id="speed"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></label><button id="loop" class="icon-button" aria-label="循环播放" aria-pressed="false" title="循环播放（默认使用原动作设置）"><svg viewBox="0 0 24 24"><path d="m16 3 4 4-4 4M4 11V9a2 2 0 0 1 2-2h14M8 21l-4-4 4-4m12 0v2a2 2 0 0 1-2 2H4"/></svg></button></div>
+          <div class="stage-options"><div class="background-options" role="group" aria-label="舞台背景"><span>舞台</span><button class="swatch paper selected" data-bg="paper" aria-label="纸白背景" aria-pressed="true"></button><button class="swatch rose" data-bg="rose" aria-label="浅粉背景" aria-pressed="false"></button><button class="swatch dark" data-bg="dark" aria-label="深色背景" aria-pressed="false"></button><button class="swatch checker" data-bg="checker" aria-label="透明棋盘背景" aria-pressed="false"></button><label class="color-picker" title="自定义背景颜色"><input id="custom-background" type="color" value="#e9e2e3" aria-label="自定义背景颜色"><span>+</span></label></div><div class="toggles"><label><input id="follow" type="checkbox"><span>视线跟随</span></label><label><input id="physics" type="checkbox" checked><span>物理效果</span></label></div></div>
+        </section>
+
+        <aside class="motion-panel"><div class="motion-panel-heading"><div><h3>动作档案 <span id="motion-count">0</span></h3></div></div><label class="search motion-search"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="motion-search" type="search" placeholder="搜索动作" aria-label="搜索动作"></label><div id="motion-list" class="motion-list" aria-label="可用动作"></div><div class="motion-footer"><button id="random-motion" class="icon-button" aria-label="随机动作" title="随机动作"><svg viewBox="0 0 24 24"><path d="M3 6h3c5 0 7 12 12 12h3m-4-4 4 4-4 4M3 18h3c2 0 3-2 5-5m2-3c2-3 3-4 5-4h3m-4-4 4 4-4 4"/></svg></button></div></aside>
+      </div>
+      <footer class="page-footer"><span>异病侦探 · 异病档案</span><span>模型与美术版权归原权利人所有</span><span id="model-info">CUBISM WEB PLAYER</span></footer>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="about"><button id="close-about" class="dialog-close icon-button" aria-label="关闭">×</button><span class="eyebrow">ABOUT THE ARCHIVE</span><h2>异病档案</h2><p>《异病侦探》角色 Live2D 展示。收录当前项目提取的 24 个模型、333 个动作及物理设置。</p><p>模型与美术版权归原权利人所有。本站为非官方展示，请支持原作。</p><p class="muted">操作：拖动移动，滚轮缩放，双击复位；空格暂停 / 播放，R 从头播放。截图导出为透明 PNG。</p><p class="muted">部分模型的动作只调整表情或参数，动态幅度较小。幼年爱丽丝的变身轨道使用成年模型参数；请在成年模型上预览变身。</p><a href="https://www.live2d.com/" target="_blank" rel="noreferrer">Powered by Live2D Cubism</a></dialog>
+  <noscript>请启用 JavaScript 以运行 Live2D 展示。</noscript>
+</body>
+</html>

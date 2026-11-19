@@ -1,0 +1,101 @@
+{
+ "Version": 3,
+ "FileReferences": {
+  "Moc": "亥珀_立繪差分1.moc3",
+  "Textures": [
+   "亥珀_立繪差分1_0_texture_00.png"
+  ],
+  "Motions": {
+   "Motion": [
+    {
+     "File": "motions/偵探表情.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/指出關鍵.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/睿智表情.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    }
+   ],
+   "Tap": [
+    {
+     "File": "motions/偵探表情.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/指出關鍵.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/睿智表情.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    }
+   ]
+  },
+  "Physics": "亥珀_立繪差分1.physics3.json"
+ },
+ "Groups": [],
+ "HitAreas": [],
+ "Controllers": {
+  "FaceTracking": {
+   "Enabled": true,
+   "AngleX": [
+    {
+     "Id": "ParamAngleX",
+     "Input": 0
+    }
+   ],
+   "AngleY": [
+    {
+     "Id": "ParamAngleY",
+     "Input": 0
+    }
+   ],
+   "AngleZ": [
+    {
+     "Id": "ParamAngleZ",
+     "Input": 0
+    }
+   ],
+   "EyeLOpen": [
+    {
+     "Id": "ParamEyeLOpen",
+     "Input": 0
+    }
+   ],
+   "EyeROpen": [
+    {
+     "Id": "ParamEyeROpen",
+     "Input": 0
+    }
+   ],
+   "MouthOpenY": [
+    {
+     "Id": "ParamMouthOpenY",
+     "Input": 0
+    }
+   ],
+   "EyeballX": [
+    {
+     "Id": "ParamEyeBallX",
+     "Input": 0
+    }
+   ],
+   "EyeballY": [
+    {
+     "Id": "ParamEyeBallY",
+     "Input": 0
+    }
+   ]
+  }
+ }
+}

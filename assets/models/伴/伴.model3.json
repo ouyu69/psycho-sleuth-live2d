@@ -1,0 +1,151 @@
+{
+ "Version": 3,
+ "FileReferences": {
+  "Moc": "伴.moc3",
+  "Textures": [
+   "伴_0_texture_00.png"
+  ],
+  "Motions": {
+   "Motion": [
+    {
+     "File": "motions/一般.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/一般_眼罩.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/哀.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/喜.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/崩潰大哭.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/怒.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/狂信且沉迷.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/瘋狂.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    }
+   ],
+   "Tap": [
+    {
+     "File": "motions/一般.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/一般_眼罩.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/哀.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/喜.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/崩潰大哭.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/怒.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/狂信且沉迷.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    },
+    {
+     "File": "motions/瘋狂.motion3.json",
+     "FadeInTime": 0.5,
+     "FadeOutTime": 0.5
+    }
+   ]
+  },
+  "Physics": "伴.physics3.json"
+ },
+ "Groups": [],
+ "HitAreas": [],
+ "Controllers": {
+  "FaceTracking": {
+   "Enabled": true,
+   "AngleX": [
+    {
+     "Id": "ParamAngleX",
+     "Input": 0
+    }
+   ],
+   "AngleY": [
+    {
+     "Id": "ParamAngleY",
+     "Input": 0
+    }
+   ],
+   "AngleZ": [
+    {
+     "Id": "ParamAngleZ",
+     "Input": 0
+    }
+   ],
+   "EyeLOpen": [
+    {
+     "Id": "ParamEyeLOpen",
+     "Input": 0
+    }
+   ],
+   "EyeROpen": [
+    {
+     "Id": "ParamEyeROpen",
+     "Input": 0
+    }
+   ],
+   "MouthOpenY": [
+    {
+     "Id": "ParamMouthOpenY",
+     "Input": 0
+    }
+   ],
+   "EyeballX": [
+    {
+     "Id": "ParamEyeBallX",
+     "Input": 0
+    }
+   ],
+   "EyeballY": [
+    {
+     "Id": "ParamEyeBallY",
+     "Input": 0
+    }
+   ]
+  }
+ }
+}

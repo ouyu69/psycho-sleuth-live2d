@@ -1,0 +1,12 @@
+{
+  "name": "psycho-sleuth-live2d-viewer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "validate": "python scripts/prepare_assets.py --check"
+  }
+}

@@ -1,0 +1,3623 @@
+{
+  "title": "异病侦探 · 异病档案",
+  "models": [
+    {
+      "id": "大愛麗絲",
+      "name": "大愛麗絲",
+      "character": "愛麗絲",
+      "variant": "成年",
+      "url": "assets/models/大愛麗絲/大愛麗絲.model3.json",
+      "bytes": 17806909,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "偶像姿勢",
+          "name": "偶像姿勢",
+          "file": "motions/偶像姿勢.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "原樣",
+          "name": "原樣",
+          "file": "motions/原樣.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哀",
+          "name": "哀",
+          "file": "motions/哀.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜",
+          "name": "喜",
+          "file": "motions/喜.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜Loop",
+          "name": "喜Loop",
+          "file": "motions/喜Loop.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "得意",
+          "name": "得意",
+          "file": "motions/得意.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒",
+          "name": "微怒",
+          "file": "motions/微怒.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "心機笑",
+          "name": "心機笑",
+          "file": "motions/心機笑.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考",
+          "name": "思考",
+          "file": "motions/思考.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "悲傷",
+          "name": "悲傷",
+          "file": "motions/悲傷.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "慌張",
+          "name": "慌張",
+          "file": "motions/慌張.motion3.json",
+          "group": "Motion",
+          "index": 11,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "慌張_閉眼",
+          "name": "慌張_閉眼",
+          "file": "motions/慌張_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 12,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒",
+          "name": "極怒",
+          "file": "motions/極怒.motion3.json",
+          "group": "Motion",
+          "index": 13,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒_閉眼",
+          "name": "極怒_閉眼",
+          "file": "motions/極怒_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 14,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "無言",
+          "name": "無言",
+          "file": "motions/無言.motion3.json",
+          "group": "Motion",
+          "index": 15,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "變大",
+          "name": "變大",
+          "file": "motions/變大.motion3.json",
+          "group": "Motion",
+          "index": 16,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "變小",
+          "name": "變小",
+          "file": "motions/變小.motion3.json",
+          "group": "Motion",
+          "index": 17,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚訝",
+          "name": "驚訝",
+          "file": "motions/驚訝.motion3.json",
+          "group": "Motion",
+          "index": 18,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "鬧彆扭",
+          "name": "鬧彆扭",
+          "file": "motions/鬧彆扭.motion3.json",
+          "group": "Motion",
+          "index": 19,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "小愛麗絲",
+      "name": "小愛麗絲",
+      "character": "愛麗絲",
+      "variant": "幼年",
+      "url": "assets/models/小愛麗絲/小愛麗絲.model3.json",
+      "bytes": 20952167,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "偶像姿勢",
+          "name": "偶像姿勢",
+          "file": "motions/偶像姿勢.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哀",
+          "name": "哀",
+          "file": "motions/哀.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜",
+          "name": "喜",
+          "file": "motions/喜.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜Loop",
+          "name": "喜Loop",
+          "file": "motions/喜Loop.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "得意",
+          "name": "得意",
+          "file": "motions/得意.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒",
+          "name": "微怒",
+          "file": "motions/微怒.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "心機笑",
+          "name": "心機笑",
+          "file": "motions/心機笑.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考",
+          "name": "思考",
+          "file": "motions/思考.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "悲傷",
+          "name": "悲傷",
+          "file": "motions/悲傷.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "慌張",
+          "name": "慌張",
+          "file": "motions/慌張.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "慌張_閉眼",
+          "name": "慌張_閉眼",
+          "file": "motions/慌張_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 11,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒",
+          "name": "極怒",
+          "file": "motions/極怒.motion3.json",
+          "group": "Motion",
+          "index": 12,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒_閉眼",
+          "name": "極怒_閉眼",
+          "file": "motions/極怒_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 13,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "無言",
+          "name": "無言",
+          "file": "motions/無言.motion3.json",
+          "group": "Motion",
+          "index": 14,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚訝",
+          "name": "驚訝",
+          "file": "motions/驚訝.motion3.json",
+          "group": "Motion",
+          "index": 15,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "鬧彆扭",
+          "name": "鬧彆扭",
+          "file": "motions/鬧彆扭.motion3.json",
+          "group": "Motion",
+          "index": 16,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "亥珀",
+      "name": "亥珀",
+      "character": "亥珀",
+      "variant": "主模型",
+      "url": "assets/models/亥珀/亥珀.model3.json",
+      "bytes": 12851928,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哀",
+          "name": "哀",
+          "file": "motions/哀.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哀_肉塊",
+          "name": "哀_肉塊",
+          "file": "motions/哀_肉塊.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜",
+          "name": "喜",
+          "file": "motions/喜.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜_肉塊",
+          "name": "喜_肉塊",
+          "file": "motions/喜_肉塊.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "嚴肅",
+          "name": "嚴肅",
+          "file": "motions/嚴肅.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "嚴肅_肉塊",
+          "name": "嚴肅_肉塊",
+          "file": "motions/嚴肅_肉塊.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "崩潰",
+          "name": "崩潰",
+          "file": "motions/崩潰.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "崩潰_loop",
+          "name": "崩潰_loop",
+          "file": "motions/崩潰_loop.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "崩潰_肉塊",
+          "name": "崩潰_肉塊",
+          "file": "motions/崩潰_肉塊.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "崩潰_肉塊_閉眼",
+          "name": "崩潰_肉塊_閉眼",
+          "file": "motions/崩潰_肉塊_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "得意",
+          "name": "得意",
+          "file": "motions/得意.motion3.json",
+          "group": "Motion",
+          "index": 11,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒",
+          "name": "微怒",
+          "file": "motions/微怒.motion3.json",
+          "group": "Motion",
+          "index": 12,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考",
+          "name": "思考",
+          "file": "motions/思考.motion3.json",
+          "group": "Motion",
+          "index": 13,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒",
+          "name": "極怒",
+          "file": "motions/極怒.motion3.json",
+          "group": "Motion",
+          "index": 14,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒_閉眼",
+          "name": "極怒_閉眼",
+          "file": "motions/極怒_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 15,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "無言",
+          "name": "無言",
+          "file": "motions/無言.motion3.json",
+          "group": "Motion",
+          "index": 16,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚訝",
+          "name": "驚訝",
+          "file": "motions/驚訝.motion3.json",
+          "group": "Motion",
+          "index": 17,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "灰妲",
+      "name": "灰妲",
+      "character": "灰妲",
+      "variant": "主模型",
+      "url": "assets/models/灰妲/灰妲.model3.json",
+      "bytes": 13495958,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哀_狼模式",
+          "name": "哀_狼模式",
+          "file": "motions/哀_狼模式.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哭",
+          "name": "哭",
+          "file": "motions/哭.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜",
+          "name": "喜",
+          "file": "motions/喜.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜_狼模式",
+          "name": "喜_狼模式",
+          "file": "motions/喜_狼模式.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "嗜血_狼模式",
+          "name": "嗜血_狼模式",
+          "file": "motions/嗜血_狼模式.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "嫌棄",
+          "name": "嫌棄",
+          "file": "motions/嫌棄.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "得意",
+          "name": "得意",
+          "file": "motions/得意.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒",
+          "name": "微怒",
+          "file": "motions/微怒.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒_閉眼",
+          "name": "微怒_閉眼",
+          "file": "motions/微怒_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "怒_狼模式",
+          "name": "怒_狼模式",
+          "file": "motions/怒_狼模式.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "怒_狼模式_閉眼",
+          "name": "怒_狼模式_閉眼",
+          "file": "motions/怒_狼模式_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 11,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考",
+          "name": "思考",
+          "file": "motions/思考.motion3.json",
+          "group": "Motion",
+          "index": 12,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考loop",
+          "name": "思考loop",
+          "file": "motions/思考loop.motion3.json",
+          "group": "Motion",
+          "index": 13,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "揮動翅膀",
+          "name": "揮動翅膀",
+          "file": "motions/揮動翅膀.motion3.json",
+          "group": "Motion",
+          "index": 14,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒",
+          "name": "極怒",
+          "file": "motions/極怒.motion3.json",
+          "group": "Motion",
+          "index": 15,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒_閉眼",
+          "name": "極怒_閉眼",
+          "file": "motions/極怒_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 16,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "興奮_狼模式",
+          "name": "興奮_狼模式",
+          "file": "motions/興奮_狼模式.motion3.json",
+          "group": "Motion",
+          "index": 17,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "質疑",
+          "name": "質疑",
+          "file": "motions/質疑.motion3.json",
+          "group": "Motion",
+          "index": 18,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "質疑loop",
+          "name": "質疑loop",
+          "file": "motions/質疑loop.motion3.json",
+          "group": "Motion",
+          "index": 19,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "質疑狼",
+          "name": "質疑狼",
+          "file": "motions/質疑狼.motion3.json",
+          "group": "Motion",
+          "index": 20,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "質疑狼loop",
+          "name": "質疑狼loop",
+          "file": "motions/質疑狼loop.motion3.json",
+          "group": "Motion",
+          "index": 21,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "驚訝",
+          "name": "驚訝",
+          "file": "motions/驚訝.motion3.json",
+          "group": "Motion",
+          "index": 22,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "艾",
+      "name": "艾",
+      "character": "艾",
+      "variant": "主模型",
+      "url": "assets/models/艾/艾.model3.json",
+      "bytes": 7523224,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "咂嘴",
+          "name": "咂嘴",
+          "file": "motions/咂嘴.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哀",
+          "name": "哀",
+          "file": "motions/哀.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜",
+          "name": "喜",
+          "file": "motions/喜.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "嚴肅",
+          "name": "嚴肅",
+          "file": "motions/嚴肅.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "得意",
+          "name": "得意",
+          "file": "motions/得意.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒",
+          "name": "微怒",
+          "file": "motions/微怒.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒_閉眼",
+          "name": "微怒_閉眼",
+          "file": "motions/微怒_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考",
+          "name": "思考",
+          "file": "motions/思考.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒",
+          "name": "極怒",
+          "file": "motions/極怒.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒_閉眼",
+          "name": "極怒_閉眼",
+          "file": "motions/極怒_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "無言",
+          "name": "無言",
+          "file": "motions/無言.motion3.json",
+          "group": "Motion",
+          "index": 11,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "面對萊爾的喜",
+          "name": "面對萊爾的喜",
+          "file": "motions/面對萊爾的喜.motion3.json",
+          "group": "Motion",
+          "index": 12,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚訝",
+          "name": "驚訝",
+          "file": "motions/驚訝.motion3.json",
+          "group": "Motion",
+          "index": 13,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "菲絲",
+      "name": "菲絲",
+      "character": "菲絲",
+      "variant": "主模型",
+      "url": "assets/models/菲絲/菲絲.model3.json",
+      "bytes": 5815030,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哭",
+          "name": "哭",
+          "file": "motions/哭.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜",
+          "name": "喜",
+          "file": "motions/喜.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "帥氣",
+          "name": "帥氣",
+          "file": "motions/帥氣.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒",
+          "name": "微怒",
+          "file": "motions/微怒.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒_閉眼",
+          "name": "微怒_閉眼",
+          "file": "motions/微怒_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考",
+          "name": "思考",
+          "file": "motions/思考.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "感動",
+          "name": "感動",
+          "file": "motions/感動.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "慌張",
+          "name": "慌張",
+          "file": "motions/慌張.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "慌張_loop",
+          "name": "慌張_loop",
+          "file": "motions/慌張_loop.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "慌張_閉眼",
+          "name": "慌張_閉眼",
+          "file": "motions/慌張_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "慌張_閉眼_loop",
+          "name": "慌張_閉眼_loop",
+          "file": "motions/慌張_閉眼_loop.motion3.json",
+          "group": "Motion",
+          "index": 11,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "極怒",
+          "name": "極怒",
+          "file": "motions/極怒.motion3.json",
+          "group": "Motion",
+          "index": 12,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒_閉眼",
+          "name": "極怒_閉眼",
+          "file": "motions/極怒_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 13,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "面臨質疑_long",
+          "name": "面臨質疑_long",
+          "file": "motions/面臨質疑_long.motion3.json",
+          "group": "Motion",
+          "index": 14,
+          "duration": 29.966999053955078,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "面臨質疑_long_閉眼",
+          "name": "面臨質疑_long_閉眼",
+          "file": "motions/面臨質疑_long_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 15,
+          "duration": 29.966999053955078,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "面臨質疑_loop",
+          "name": "面臨質疑_loop",
+          "file": "motions/面臨質疑_loop.motion3.json",
+          "group": "Motion",
+          "index": 16,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "面臨質疑_loop_閉眼",
+          "name": "面臨質疑_loop_閉眼",
+          "file": "motions/面臨質疑_loop_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 17,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "驚訝",
+          "name": "驚訝",
+          "file": "motions/驚訝.motion3.json",
+          "group": "Motion",
+          "index": 18,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "守",
+      "name": "守",
+      "character": "守",
+      "variant": "主模型",
+      "url": "assets/models/守/守.model3.json",
+      "bytes": 3926514,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哀",
+          "name": "哀",
+          "file": "motions/哀.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜",
+          "name": "喜",
+          "file": "motions/喜.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "困擾",
+          "name": "困擾",
+          "file": "motions/困擾.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒",
+          "name": "微怒",
+          "file": "motions/微怒.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒_閉眼",
+          "name": "微怒_閉眼",
+          "file": "motions/微怒_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考",
+          "name": "思考",
+          "file": "motions/思考.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒",
+          "name": "極怒",
+          "file": "motions/極怒.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒_閉眼",
+          "name": "極怒_閉眼",
+          "file": "motions/極怒_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "真的喜悅",
+          "name": "真的喜悅",
+          "file": "motions/真的喜悅.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "質疑",
+          "name": "質疑",
+          "file": "motions/質疑.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "質疑_閉眼",
+          "name": "質疑_閉眼",
+          "file": "motions/質疑_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 11,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚訝",
+          "name": "驚訝",
+          "file": "motions/驚訝.motion3.json",
+          "group": "Motion",
+          "index": 12,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "伴",
+      "name": "伴",
+      "character": "絆",
+      "variant": "主模型",
+      "url": "assets/models/伴/伴.model3.json",
+      "bytes": 6814980,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "一般_眼罩",
+          "name": "一般_眼罩",
+          "file": "motions/一般_眼罩.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哀",
+          "name": "哀",
+          "file": "motions/哀.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜",
+          "name": "喜",
+          "file": "motions/喜.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "崩潰大哭",
+          "name": "崩潰大哭",
+          "file": "motions/崩潰大哭.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "怒",
+          "name": "怒",
+          "file": "motions/怒.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "狂信且沉迷",
+          "name": "狂信且沉迷",
+          "file": "motions/狂信且沉迷.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "瘋狂",
+          "name": "瘋狂",
+          "file": "motions/瘋狂.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "柯塔",
+      "name": "柯塔",
+      "character": "柯塔",
+      "variant": "主模型",
+      "url": "assets/models/柯塔/柯塔.model3.json",
+      "bytes": 3644712,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "無神",
+          "name": "無神",
+          "file": "motions/無神.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "生氣",
+          "name": "生氣",
+          "file": "motions/生氣.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "生氣_閉眼",
+          "name": "生氣_閉眼",
+          "file": "motions/生氣_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "開心",
+          "name": "開心",
+          "file": "motions/開心.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚嚇",
+          "name": "驚嚇",
+          "file": "motions/驚嚇.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "萊娜_legacy251211",
+      "name": "萊娜_legacy251211",
+      "character": "萊娜",
+      "variant": "舊版 · 251211",
+      "url": "assets/models/萊娜_legacy251211/萊娜_legacy251211.model3.json",
+      "bytes": 13665163,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "一般_閉眼",
+          "name": "一般_閉眼",
+          "file": "motions/一般_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哀",
+          "name": "哀",
+          "file": "motions/哀.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哥哥應援",
+          "name": "哥哥應援",
+          "file": "motions/哥哥應援.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜",
+          "name": "喜",
+          "file": "motions/喜.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "嫌棄",
+          "name": "嫌棄",
+          "file": "motions/嫌棄.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "嫌棄_肉塊",
+          "name": "嫌棄_肉塊",
+          "file": "motions/嫌棄_肉塊.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "得意",
+          "name": "得意",
+          "file": "motions/得意.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒",
+          "name": "微怒",
+          "file": "motions/微怒.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考",
+          "name": "思考",
+          "file": "motions/思考.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒",
+          "name": "極怒",
+          "file": "motions/極怒.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "無言",
+          "name": "無言",
+          "file": "motions/無言.motion3.json",
+          "group": "Motion",
+          "index": 11,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "質疑",
+          "name": "質疑",
+          "file": "motions/質疑.motion3.json",
+          "group": "Motion",
+          "index": 12,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "質疑loop",
+          "name": "質疑loop",
+          "file": "motions/質疑loop.motion3.json",
+          "group": "Motion",
+          "index": 13,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "驚訝",
+          "name": "驚訝",
+          "file": "motions/驚訝.motion3.json",
+          "group": "Motion",
+          "index": 14,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚訝_肉塊",
+          "name": "驚訝_肉塊",
+          "file": "motions/驚訝_肉塊.motion3.json",
+          "group": "Motion",
+          "index": 15,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "萊爾_legacy251211",
+      "name": "萊爾_legacy251211",
+      "character": "萊爾",
+      "variant": "舊版 · 251211",
+      "url": "assets/models/萊爾_legacy251211/萊爾_legacy251211.model3.json",
+      "bytes": 7569383,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哀",
+          "name": "哀",
+          "file": "motions/哀.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜",
+          "name": "喜",
+          "file": "motions/喜.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "嚴肅",
+          "name": "嚴肅",
+          "file": "motions/嚴肅.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "嚴肅_閉眼",
+          "name": "嚴肅_閉眼",
+          "file": "motions/嚴肅_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "大怒",
+          "name": "大怒",
+          "file": "motions/大怒.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "崩潰",
+          "name": "崩潰",
+          "file": "motions/崩潰.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "得意",
+          "name": "得意",
+          "file": "motions/得意.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒",
+          "name": "微怒",
+          "file": "motions/微怒.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "無言",
+          "name": "無言",
+          "file": "motions/無言.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "肉一般",
+          "name": "肉一般",
+          "file": "motions/肉一般.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "肉哀",
+          "name": "肉哀",
+          "file": "motions/肉哀.motion3.json",
+          "group": "Motion",
+          "index": 11,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "肉嚴肅",
+          "name": "肉嚴肅",
+          "file": "motions/肉嚴肅.motion3.json",
+          "group": "Motion",
+          "index": 12,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "肉大怒",
+          "name": "肉大怒",
+          "file": "motions/肉大怒.motion3.json",
+          "group": "Motion",
+          "index": 13,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "肉崩潰",
+          "name": "肉崩潰",
+          "file": "motions/肉崩潰.motion3.json",
+          "group": "Motion",
+          "index": 14,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "肉微怒",
+          "name": "肉微怒",
+          "file": "motions/肉微怒.motion3.json",
+          "group": "Motion",
+          "index": 15,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "肉閉眼",
+          "name": "肉閉眼",
+          "file": "motions/肉閉眼.motion3.json",
+          "group": "Motion",
+          "index": 16,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "肉驚訝",
+          "name": "肉驚訝",
+          "file": "motions/肉驚訝.motion3.json",
+          "group": "Motion",
+          "index": 17,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "質疑",
+          "name": "質疑",
+          "file": "motions/質疑.motion3.json",
+          "group": "Motion",
+          "index": 18,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "質疑loop",
+          "name": "質疑loop",
+          "file": "motions/質疑loop.motion3.json",
+          "group": "Motion",
+          "index": 19,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "閉眼",
+          "name": "閉眼",
+          "file": "motions/閉眼.motion3.json",
+          "group": "Motion",
+          "index": 20,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚訝",
+          "name": "驚訝",
+          "file": "motions/驚訝.motion3.json",
+          "group": "Motion",
+          "index": 21,
+          "duration": 1.6670000553131104,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "代理教主",
+      "name": "代理教主",
+      "character": "代理教主",
+      "variant": "主模型",
+      "url": "assets/models/代理教主/代理教主.model3.json",
+      "bytes": 9867299,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哀",
+          "name": "哀",
+          "file": "motions/哀.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜",
+          "name": "喜",
+          "file": "motions/喜.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "嫌棄",
+          "name": "嫌棄",
+          "file": "motions/嫌棄.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "得意",
+          "name": "得意",
+          "file": "motions/得意.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒",
+          "name": "微怒",
+          "file": "motions/微怒.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考",
+          "name": "思考",
+          "file": "motions/思考.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒",
+          "name": "極怒",
+          "file": "motions/極怒.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "無言",
+          "name": "無言",
+          "file": "motions/無言.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "閉眼",
+          "name": "閉眼",
+          "file": "motions/閉眼.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚訝",
+          "name": "驚訝",
+          "file": "motions/驚訝.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "真教主",
+      "name": "真教主",
+      "character": "真教主",
+      "variant": "主模型",
+      "url": "assets/models/真教主/真教主.model3.json",
+      "bytes": 9682263,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哀",
+          "name": "哀",
+          "file": "motions/哀.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哭",
+          "name": "哭",
+          "file": "motions/哭.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哭理教",
+          "name": "哭理教",
+          "file": "motions/哭理教.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜",
+          "name": "喜",
+          "file": "motions/喜.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "嚴肅",
+          "name": "嚴肅",
+          "file": "motions/嚴肅.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "失落",
+          "name": "失落",
+          "file": "motions/失落.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "崩壞",
+          "name": "崩壞",
+          "file": "motions/崩壞.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒",
+          "name": "微怒",
+          "file": "motions/微怒.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考",
+          "name": "思考",
+          "file": "motions/思考.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "恐懼",
+          "name": "恐懼",
+          "file": "motions/恐懼.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "恐懼loop",
+          "name": "恐懼loop",
+          "file": "motions/恐懼loop.motion3.json",
+          "group": "Motion",
+          "index": 11,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "慌張",
+          "name": "慌張",
+          "file": "motions/慌張.motion3.json",
+          "group": "Motion",
+          "index": 12,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "慌張loop",
+          "name": "慌張loop",
+          "file": "motions/慌張loop.motion3.json",
+          "group": "Motion",
+          "index": 13,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "斗篷一般",
+          "name": "斗篷一般",
+          "file": "motions/斗篷一般.motion3.json",
+          "group": "Motion",
+          "index": 14,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "斗篷喜",
+          "name": "斗篷喜",
+          "file": "motions/斗篷喜.motion3.json",
+          "group": "Motion",
+          "index": 15,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "斗篷祈禱",
+          "name": "斗篷祈禱",
+          "file": "motions/斗篷祈禱.motion3.json",
+          "group": "Motion",
+          "index": 16,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "斗篷遮臉",
+          "name": "斗篷遮臉",
+          "file": "motions/斗篷遮臉.motion3.json",
+          "group": "Motion",
+          "index": 17,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "斗篷遮臉祈禱",
+          "name": "斗篷遮臉祈禱",
+          "file": "motions/斗篷遮臉祈禱.motion3.json",
+          "group": "Motion",
+          "index": 18,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒",
+          "name": "極怒",
+          "file": "motions/極怒.motion3.json",
+          "group": "Motion",
+          "index": 19,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "狂喜",
+          "name": "狂喜",
+          "file": "motions/狂喜.motion3.json",
+          "group": "Motion",
+          "index": 20,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "狡辯",
+          "name": "狡辯",
+          "file": "motions/狡辯.motion3.json",
+          "group": "Motion",
+          "index": 21,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "狡辯loop",
+          "name": "狡辯loop",
+          "file": "motions/狡辯loop.motion3.json",
+          "group": "Motion",
+          "index": 22,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "眼無光",
+          "name": "眼無光",
+          "file": "motions/眼無光.motion3.json",
+          "group": "Motion",
+          "index": 23,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "祈禱",
+          "name": "祈禱",
+          "file": "motions/祈禱.motion3.json",
+          "group": "Motion",
+          "index": 24,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "質疑",
+          "name": "質疑",
+          "file": "motions/質疑.motion3.json",
+          "group": "Motion",
+          "index": 25,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚訝",
+          "name": "驚訝",
+          "file": "motions/驚訝.motion3.json",
+          "group": "Motion",
+          "index": 26,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "解",
+      "name": "解",
+      "character": "解",
+      "variant": "主模型",
+      "url": "assets/models/解/解.model3.json",
+      "bytes": 5015022,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哭",
+          "name": "哭",
+          "file": "motions/哭.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜",
+          "name": "喜",
+          "file": "motions/喜.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "嫌棄",
+          "name": "嫌棄",
+          "file": "motions/嫌棄.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "得意",
+          "name": "得意",
+          "file": "motions/得意.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒",
+          "name": "微怒",
+          "file": "motions/微怒.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒_閉眼",
+          "name": "微怒_閉眼",
+          "file": "motions/微怒_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考",
+          "name": "思考",
+          "file": "motions/思考.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒",
+          "name": "極怒",
+          "file": "motions/極怒.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒_閉眼",
+          "name": "極怒_閉眼",
+          "file": "motions/極怒_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "質疑",
+          "name": "質疑",
+          "file": "motions/質疑.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "質疑loop",
+          "name": "質疑loop",
+          "file": "motions/質疑loop.motion3.json",
+          "group": "Motion",
+          "index": 11,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "閉眼",
+          "name": "閉眼",
+          "file": "motions/閉眼.motion3.json",
+          "group": "Motion",
+          "index": 12,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚訝",
+          "name": "驚訝",
+          "file": "motions/驚訝.motion3.json",
+          "group": "Motion",
+          "index": 13,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "雷",
+      "name": "雷",
+      "character": "雷",
+      "variant": "主模型",
+      "url": "assets/models/雷/雷.model3.json",
+      "bytes": 4215317,
+      "physics": true,
+      "motions": [
+        {
+          "id": "哭_口罩",
+          "name": "哭_口罩",
+          "file": "motions/哭_口罩.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哭_拉下口罩",
+          "name": "哭_拉下口罩",
+          "file": "motions/哭_拉下口罩.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜_口罩",
+          "name": "喜_口罩",
+          "file": "motions/喜_口罩.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜_拉下口罩",
+          "name": "喜_拉下口罩",
+          "file": "motions/喜_拉下口罩.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "得意_拉下口罩",
+          "name": "得意_拉下口罩",
+          "file": "motions/得意_拉下口罩.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "怒_口罩",
+          "name": "怒_口罩",
+          "file": "motions/怒_口罩.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "怒_口罩_閉眼",
+          "name": "怒_口罩_閉眼",
+          "file": "motions/怒_口罩_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "怒_拉下口罩",
+          "name": "怒_拉下口罩",
+          "file": "motions/怒_拉下口罩.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "怒_拉下口罩_閉眼",
+          "name": "怒_拉下口罩_閉眼",
+          "file": "motions/怒_拉下口罩_閉眼.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考_口罩",
+          "name": "思考_口罩",
+          "file": "motions/思考_口罩.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考_拉下口罩",
+          "name": "思考_拉下口罩",
+          "file": "motions/思考_拉下口罩.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "現寶腰上的熊_拉下口罩",
+          "name": "現寶腰上的熊_拉下口罩",
+          "file": "motions/現寶腰上的熊_拉下口罩.motion3.json",
+          "group": "Motion",
+          "index": 11,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "被可愛融化_口罩",
+          "name": "被可愛融化_口罩",
+          "file": "motions/被可愛融化_口罩.motion3.json",
+          "group": "Motion",
+          "index": 12,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "被可愛融化_拉下口罩",
+          "name": "被可愛融化_拉下口罩",
+          "file": "motions/被可愛融化_拉下口罩.motion3.json",
+          "group": "Motion",
+          "index": 13,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚訝_口罩",
+          "name": "驚訝_口罩",
+          "file": "motions/驚訝_口罩.motion3.json",
+          "group": "Motion",
+          "index": 14,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚訝_拉下口罩",
+          "name": "驚訝_拉下口罩",
+          "file": "motions/驚訝_拉下口罩.motion3.json",
+          "group": "Motion",
+          "index": 15,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "哭_口罩"
+    },
+    {
+      "id": "亥珀_立繪差分1",
+      "name": "亥珀_立繪差分1",
+      "character": "亥珀",
+      "variant": "差分 1",
+      "url": "assets/models/亥珀_立繪差分1/亥珀_立繪差分1.model3.json",
+      "bytes": 3085663,
+      "physics": true,
+      "motions": [
+        {
+          "id": "偵探表情",
+          "name": "偵探表情",
+          "file": "motions/偵探表情.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "指出關鍵",
+          "name": "指出關鍵",
+          "file": "motions/指出關鍵.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "睿智表情",
+          "name": "睿智表情",
+          "file": "motions/睿智表情.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "偵探表情"
+    },
+    {
+      "id": "亥珀_立繪差分2",
+      "name": "亥珀_立繪差分2",
+      "character": "亥珀",
+      "variant": "差分 2",
+      "url": "assets/models/亥珀_立繪差分2/亥珀_立繪差分2.model3.json",
+      "bytes": 3288537,
+      "physics": true,
+      "motions": [
+        {
+          "id": "崩潰",
+          "name": "崩潰",
+          "file": "motions/崩潰.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考",
+          "name": "思考",
+          "file": "motions/思考.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "逼入絕境",
+          "name": "逼入絕境",
+          "file": "motions/逼入絕境.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "逼入絕境_吐血",
+          "name": "逼入絕境_吐血",
+          "file": "motions/逼入絕境_吐血.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "崩潰"
+    },
+    {
+      "id": "教主_260202",
+      "name": "教主_260202",
+      "character": "代理教主",
+      "variant": "舊版 · 260202",
+      "url": "assets/models/教主_260202/教主_260202.model3.json",
+      "bytes": 11129560,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哀",
+          "name": "哀",
+          "file": "motions/哀.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜",
+          "name": "喜",
+          "file": "motions/喜.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "嫌棄",
+          "name": "嫌棄",
+          "file": "motions/嫌棄.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "得意",
+          "name": "得意",
+          "file": "motions/得意.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微怒",
+          "name": "微怒",
+          "file": "motions/微怒.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考",
+          "name": "思考",
+          "file": "motions/思考.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒",
+          "name": "極怒",
+          "file": "motions/極怒.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "無言",
+          "name": "無言",
+          "file": "motions/無言.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "閉眼",
+          "name": "閉眼",
+          "file": "motions/閉眼.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚訝",
+          "name": "驚訝",
+          "file": "motions/驚訝.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "艾_立繪差分1",
+      "name": "艾_立繪差分1",
+      "character": "艾",
+      "variant": "差分 1",
+      "url": "assets/models/艾_立繪差分1/艾_立繪差分1.model3.json",
+      "bytes": 4388881,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "不爽",
+          "name": "不爽",
+          "file": "motions/不爽.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "傲嬌",
+          "name": "傲嬌",
+          "file": "motions/傲嬌.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "困擾",
+          "name": "困擾",
+          "file": "motions/困擾.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "害羞",
+          "name": "害羞",
+          "file": "motions/害羞.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "微笑",
+          "name": "微笑",
+          "file": "motions/微笑.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "憂鬱",
+          "name": "憂鬱",
+          "file": "motions/憂鬱.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "無奈",
+          "name": "無奈",
+          "file": "motions/無奈.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "鄙視",
+          "name": "鄙視",
+          "file": "motions/鄙視.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "釋懷",
+          "name": "釋懷",
+          "file": "motions/釋懷.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "鬧彆扭",
+          "name": "鬧彆扭",
+          "file": "motions/鬧彆扭.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "艾_立繪差分2",
+      "name": "艾_立繪差分2",
+      "character": "艾",
+      "variant": "差分 2",
+      "url": "assets/models/艾_立繪差分2/艾_立繪差分2.model3.json",
+      "bytes": 4998409,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "堅定",
+          "name": "堅定",
+          "file": "motions/堅定.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "威攝",
+          "name": "威攝",
+          "file": "motions/威攝.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "得手",
+          "name": "得手",
+          "file": "motions/得手.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "忍耐",
+          "name": "忍耐",
+          "file": "motions/忍耐.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "激動",
+          "name": "激動",
+          "file": "motions/激動.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "無所謂",
+          "name": "無所謂",
+          "file": "motions/無所謂.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "狡辯",
+          "name": "狡辯",
+          "file": "motions/狡辯.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "算了",
+          "name": "算了",
+          "file": "motions/算了.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "自信",
+          "name": "自信",
+          "file": "motions/自信.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "逼入絕境",
+          "name": "逼入絕境",
+          "file": "motions/逼入絕境.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "關鍵",
+          "name": "關鍵",
+          "file": "motions/關鍵.motion3.json",
+          "group": "Motion",
+          "index": 11,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    },
+    {
+      "id": "萊娜_立繪差分1",
+      "name": "萊娜_立繪差分1",
+      "character": "萊娜",
+      "variant": "差分 1",
+      "url": "assets/models/萊娜_立繪差分1/萊娜_立繪差分1.model3.json",
+      "bytes": 94938309,
+      "physics": true,
+      "motions": [
+        {
+          "id": "可愛大喊",
+          "name": "可愛大喊",
+          "file": "motions/可愛大喊.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "咦",
+          "name": "咦",
+          "file": "motions/咦.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "困擾",
+          "name": "困擾",
+          "file": "motions/困擾.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "困擾loop",
+          "name": "困擾loop",
+          "file": "motions/困擾loop.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "害怕",
+          "name": "害怕",
+          "file": "motions/害怕.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "害怕loop",
+          "name": "害怕loop",
+          "file": "motions/害怕loop.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "害羞",
+          "name": "害羞",
+          "file": "motions/害羞.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "小惡魔",
+          "name": "小惡魔",
+          "file": "motions/小惡魔.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "尷尬",
+          "name": "尷尬",
+          "file": "motions/尷尬.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "尷尬loop",
+          "name": "尷尬loop",
+          "file": "motions/尷尬loop.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "心虛",
+          "name": "心虛",
+          "file": "motions/心虛.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "心虛loop",
+          "name": "心虛loop",
+          "file": "motions/心虛loop.motion3.json",
+          "group": "Motion",
+          "index": 11,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "擔心",
+          "name": "擔心",
+          "file": "motions/擔心.motion3.json",
+          "group": "Motion",
+          "index": 12,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "擔心loop",
+          "name": "擔心loop",
+          "file": "motions/擔心loop.motion3.json",
+          "group": "Motion",
+          "index": 13,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "生氣",
+          "name": "生氣",
+          "file": "motions/生氣.motion3.json",
+          "group": "Motion",
+          "index": 14,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "眨眼",
+          "name": "眨眼",
+          "file": "motions/眨眼.motion3.json",
+          "group": "Motion",
+          "index": 15,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "給壓力",
+          "name": "給壓力",
+          "file": "motions/給壓力.motion3.json",
+          "group": "Motion",
+          "index": 16,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "緊張",
+          "name": "緊張",
+          "file": "motions/緊張.motion3.json",
+          "group": "Motion",
+          "index": 17,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "豆子眼",
+          "name": "豆子眼",
+          "file": "motions/豆子眼.motion3.json",
+          "group": "Motion",
+          "index": 18,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "豆子眼汗",
+          "name": "豆子眼汗",
+          "file": "motions/豆子眼汗.motion3.json",
+          "group": "Motion",
+          "index": 19,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "豆子眼汗loop",
+          "name": "豆子眼汗loop",
+          "file": "motions/豆子眼汗loop.motion3.json",
+          "group": "Motion",
+          "index": 20,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "開心",
+          "name": "開心",
+          "file": "motions/開心.motion3.json",
+          "group": "Motion",
+          "index": 21,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚訝",
+          "name": "驚訝",
+          "file": "motions/驚訝.motion3.json",
+          "group": "Motion",
+          "index": 22,
+          "duration": 2.0,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "可愛大喊"
+    },
+    {
+      "id": "萊爾_立繪差分1",
+      "name": "萊爾_立繪差分1",
+      "character": "萊爾",
+      "variant": "差分 1",
+      "url": "assets/models/萊爾_立繪差分1/萊爾_立繪差分1.model3.json",
+      "bytes": 2536803,
+      "physics": true,
+      "motions": [
+        {
+          "id": "指出關鍵",
+          "name": "指出關鍵",
+          "file": "motions/指出關鍵.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "說明說服",
+          "name": "說明說服",
+          "file": "motions/說明說服.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "指出關鍵"
+    },
+    {
+      "id": "萊爾_立繪差分2",
+      "name": "萊爾_立繪差分2",
+      "character": "萊爾",
+      "variant": "差分 2",
+      "url": "assets/models/萊爾_立繪差分2/萊爾_立繪差分2.model3.json",
+      "bytes": 2978879,
+      "physics": true,
+      "motions": [
+        {
+          "id": "崩潰",
+          "name": "崩潰",
+          "file": "motions/崩潰.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 0.800000011920929,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "崩潰_loop",
+          "name": "崩潰_loop",
+          "file": "motions/崩潰_loop.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 0.800000011920929,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "忍耐痛苦",
+          "name": "忍耐痛苦",
+          "file": "motions/忍耐痛苦.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 0.5,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "忍耐痛苦_loop",
+          "name": "忍耐痛苦_loop",
+          "file": "motions/忍耐痛苦_loop.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 0.800000011920929,
+          "fps": 30.0,
+          "loop": true
+        },
+        {
+          "id": "逼入絕境",
+          "name": "逼入絕境",
+          "file": "motions/逼入絕境.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 1.0,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "逼入絕境_loop",
+          "name": "逼入絕境_loop",
+          "file": "motions/逼入絕境_loop.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 0.800000011920929,
+          "fps": 30.0,
+          "loop": true
+        }
+      ],
+      "defaultMotion": "崩潰"
+    },
+    {
+      "id": "萊爾成神",
+      "name": "萊爾成神",
+      "character": "萊爾",
+      "variant": "成神",
+      "url": "assets/models/萊爾成神/萊爾成神.model3.json",
+      "bytes": 5419063,
+      "physics": true,
+      "motions": [
+        {
+          "id": "一般",
+          "name": "一般",
+          "file": "motions/一般.motion3.json",
+          "group": "Motion",
+          "index": 0,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "傷一般",
+          "name": "傷一般",
+          "file": "motions/傷一般.motion3.json",
+          "group": "Motion",
+          "index": 1,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "傷哀",
+          "name": "傷哀",
+          "file": "motions/傷哀.motion3.json",
+          "group": "Motion",
+          "index": 2,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "傷害",
+          "name": "傷害",
+          "file": "motions/傷害.motion3.json",
+          "group": "Motion",
+          "index": 3,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "傷怒",
+          "name": "傷怒",
+          "file": "motions/傷怒.motion3.json",
+          "group": "Motion",
+          "index": 4,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "傷思考",
+          "name": "傷思考",
+          "file": "motions/傷思考.motion3.json",
+          "group": "Motion",
+          "index": 5,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "傷驚訝",
+          "name": "傷驚訝",
+          "file": "motions/傷驚訝.motion3.json",
+          "group": "Motion",
+          "index": 6,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "哀",
+          "name": "哀",
+          "file": "motions/哀.motion3.json",
+          "group": "Motion",
+          "index": 7,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "喜",
+          "name": "喜",
+          "file": "motions/喜.motion3.json",
+          "group": "Motion",
+          "index": 8,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "怒",
+          "name": "怒",
+          "file": "motions/怒.motion3.json",
+          "group": "Motion",
+          "index": 9,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "思考",
+          "name": "思考",
+          "file": "motions/思考.motion3.json",
+          "group": "Motion",
+          "index": 10,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "手勢",
+          "name": "手勢",
+          "file": "motions/手勢.motion3.json",
+          "group": "Motion",
+          "index": 11,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "手勢一般",
+          "name": "手勢一般",
+          "file": "motions/手勢一般.motion3.json",
+          "group": "Motion",
+          "index": 12,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "手勢哀",
+          "name": "手勢哀",
+          "file": "motions/手勢哀.motion3.json",
+          "group": "Motion",
+          "index": 13,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "手勢喜",
+          "name": "手勢喜",
+          "file": "motions/手勢喜.motion3.json",
+          "group": "Motion",
+          "index": 14,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "極怒",
+          "name": "極怒",
+          "file": "motions/極怒.motion3.json",
+          "group": "Motion",
+          "index": 15,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        },
+        {
+          "id": "驚訝",
+          "name": "驚訝",
+          "file": "motions/驚訝.motion3.json",
+          "group": "Motion",
+          "index": 16,
+          "duration": 3.3329999446868896,
+          "fps": 30.0,
+          "loop": false
+        }
+      ],
+      "defaultMotion": "一般"
+    }
+  ]
+}
